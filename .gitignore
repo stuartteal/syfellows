@@ -11,5 +11,8 @@
 /log/*
 !/log/.keep
 /tmp
-/config/database.yml
-/config/seccrets.yml
+
+#Manually added
+config/secrets.yml
+
+config/database.yml

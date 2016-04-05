@@ -14,12 +14,14 @@ default: &default
   encoding: utf8
   pool: 5
   username: root
-  password:
+  password: STxj2495
   host: localhost
+  socket: /tmp/mysql.sock
+  port: 3306
 
 development:
   <<: *default
-  database: syfellows_development
+  database: #syfellows_development
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
